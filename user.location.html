@@ -1,0 +1,12 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/geolocation/2.0.2/geolocation.min.js"></script>
+
+  <script>
+    // Import the code
+    import { getCurrentPosition } from "geolocation";
+
+    // Get the user's location
+    getCurrentPosition((position) => {
+      // Print the location
+      console.log(position.coords.latitude, position.coords.longitude);
+    });
+  </script>
