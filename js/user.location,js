@@ -1,7 +1,0 @@
-geolocation.getCurrentPosition((position) => {
-  // Use the position object to access the user's latitude and longitude
-  const latitude = position.coords.latitude;
-  const longitude = position.coords.longitude;
-
-  // Use the latitude and longitude to display the user's location on the map or perform other actions
-});
